@@ -28,9 +28,9 @@ with open ('de_cc_data.txt','r') as input:
         drug_summary_sorted = sorted(drug_summary.items(), key=lambda x:x[0])
         drug_summary_sorted = sorted(drug_summary_sorted, key=lambda x:x[1][1], reverse = True)
         
-top_cost_drug=open("top_cost_drug.txt","w")    
-print("drug_name,num_prescriber,total_cost",file=state)
+drugs=open("top_cost_drug.txt","w")    
+print("drug_name,num_prescriber,total_cost",file=drugs)
 for item in drug_summary_sorted:
-    print(item[0],str(item[1][0]),((int(item[1][1]))),sep=',',file=top_cost_drug)
+    print(item[0],str(item[1][0]),((int(item[1][1]))),sep=',',file=drugs)
 
-top_cost_drug.close()
+drugs.close()

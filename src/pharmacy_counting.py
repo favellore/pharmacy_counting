@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-with open ('de_cc_data.txt','r') as input:
+with open ('input/itcont.txt','r') as input:
     line = input.readline().replace('\n','')
 
     drug_name=[]
@@ -32,7 +32,7 @@ with open ('de_cc_data.txt','r') as input:
         drug_summary_sorted = sorted(drug_summary.items(), key=lambda x:x[0])
         drug_summary_sorted = sorted(drug_summary_sorted, key=lambda x:x[1][1], reverse = True)
         
-drugs=open("top_cost_drug.txt","w")    
+drugs=open("output/top_cost_drug.txt","w")    
 print("drug_name,num_prescriber,total_cost",file=drugs)
 for item in drug_summary_sorted:
     print(item[0],str(item[1][0]),((int(item[1][1]))),sep=',',file=drugs)

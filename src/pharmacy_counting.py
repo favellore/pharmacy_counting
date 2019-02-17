@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 with open ('de_cc_data.txt','r') as input:
     line = input.readline().replace('\n','')
 

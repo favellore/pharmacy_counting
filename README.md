@@ -55,11 +55,9 @@ Tackling the problem
 
 ## Run
 
-
+Run the file to  generate a list of drugs, the total number of UNIQUE individials who prescribed the medication, and the total drug cost
 ```
-
 ./run.sh
-
 
 ```
 

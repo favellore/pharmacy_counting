@@ -19,7 +19,7 @@ Insight DataScience asked to tackle this challenge without using the libraries. 
 
 ## Input Dataset
 
-* [Click here to download full dataset as provided in Challenge](https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view) -Its a large dataset containing over 24 million records. Note, we will use it to test the full functionality of your code, along with other tests.
+* [Click here to download full dataset as provided in challenge](https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view) -Its a large dataset containing over 24 million records. Note, we will use it to test the full functionality of your code, along with other tests.
 
 The input folder has the folder 
 
@@ -53,7 +53,7 @@ Tackling the problem
 * Write the required output
 
 
-##Run
+## Run
 
 
 ```
@@ -62,11 +62,5 @@ Tackling the problem
 
 
 ```
-
-
-
-
-
-
 
 

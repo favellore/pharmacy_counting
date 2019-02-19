@@ -4,7 +4,10 @@
 
 ## Table of Content
 
-
+1) Problem
+2) Input Dataset
+3) Approach
+4) Run
 
 
 ## Problem
@@ -39,14 +42,26 @@ AMBIEN,2,300
 ```
 ## Approach
 
+Tackling the problem 
 
-
+* Without using the library imported the text file , for this problem we run a small file, however the same code could be used to tackle large file. The processing time will be increased to two to three minutes.
+* Seperate the file with commas and read line by line
+* There should be five columns in the file, some rows has less than five columns, this is takled by using [-1]
+* Append the list
+* Create a dict. to perform arthemetic operations
+* Open a txt file
+* Write the required output
 
 
 ##Run
 
 
+```
 
+./run.sh
+
+
+```
 
 
 
